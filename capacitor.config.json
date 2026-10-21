@@ -1,0 +1,17 @@
+{
+  "appId": "com.legdenkaese.app",
+  "appName": "Leg den Käse",
+  "webDir": "www",
+  "backgroundColor": "#ff8a2b",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#ff8a2b",
+    "allowsLinkPreview": false
+  },
+  "plugins": {
+    "Keyboard": {
+      "resize": "native",
+      "resizeOnFullScreen": true
+    }
+  }
+}

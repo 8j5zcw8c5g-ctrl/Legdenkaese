@@ -1,0 +1,52 @@
+# =====================================================================
+#  Leg den Käse – iOS-App in der Cloud bauen, signieren und zu TestFlight hochladen
+#  (kein Mac nötig). Anleitung: ANLEITUNG.md, Schritt 4.
+# =====================================================================
+workflows:
+  ios-testflight:
+    name: Leg den Käse – TestFlight
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    integrations:
+      # Name, unter dem du den App-Store-Connect-API-Schlüssel in Codemagic gespeichert hast
+      app_store_connect: LegDenKaese
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.legdenkaese.app
+      vars:
+        BUNDLE_ID: com.legdenkaese.app
+        APP_VERSION: "1.8.0"
+      node: 20
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Web-Spiel für die App vorbereiten
+        script: |
+          rm -rf www
+          mkdir -p www
+          cp index.html config.js foto-*.jpg www/
+          grep -q "DEIN-KONTO" config.js && echo "⚠️ WARNUNG: In config.js steht noch keine Worker-Adresse – Chats gehen in der App dann nicht." || true
+      - name: Capacitor installieren
+        script: npm install
+      - name: iOS-Projekt erzeugen und einrichten
+        script: |
+          if [ ! -d ios ]; then npx cap add ios; fi
+          bash ios-setup.sh
+          npx cap sync ios
+      - name: Signierung einrichten
+        script: xcode-project use-profiles
+      - name: App bauen
+        script: |
+          xcode-project build-ipa \
+            --workspace "ios/App/App.xcworkspace" \
+            --scheme "App"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        # Interne Tester (du selbst) bekommen den Build automatisch in TestFlight.
+        submit_to_testflight: false
+        submit_to_app_store: false

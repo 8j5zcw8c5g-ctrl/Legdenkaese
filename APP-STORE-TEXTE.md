@@ -1,0 +1,112 @@
+# Texte zum Kopieren für App Store Connect
+
+## App-Informationen
+
+**Name** (max. 30): `Leg den Käse`
+**Untertitel** (max. 30): `Flirt-Comedy mit KI-Figuren`
+**Primäre Kategorie:** Spiele · Unterkategorien: **Simulation**, **Casual**
+**Sekundäre Kategorie:** Unterhaltung
+**Copyright:** `2026 DEIN NAME`
+
+## Altersfreigabe (Fragebogen)
+
+Ehrliche Antworten für dieses Spiel – Ergebnis sollte **18+** sein (das Spiel sagt selbst „nur für Erwachsene“):
+
+| Frage | Antwort |
+|---|---|
+| Elternkontrollen / Altersprüfung in der App | Nein |
+| Uneingeschränkter Webzugriff | Nein |
+| Nutzergenerierte Inhalte (für andere sichtbar) | Nein |
+| Nachrichten und Chat zwischen Nutzern | Nein (man chattet nur mit KI-Figuren, nicht mit anderen Menschen) |
+| Werbung | Nein |
+| Obszöne Sprache oder derber Humor | **Häufig** (Comedy-Beleidigungen, Roasts) |
+| Horror/Angst | Keine |
+| Alkohol, Tabak, Drogen | **Häufig** (eine Figur feiert gern und stößt mit Vodka an) |
+| Medizinische Inhalte | Keine |
+| Anzügliche oder erwachsene Themen | **Häufig** (Flirt, Anspielungen) |
+| Sexuelle Inhalte oder Nacktheit | **Häufig** (sinnliche Flirt-Dialoge mancher Figuren, keine Nacktheit) |
+| Gewalt (alle Arten) | Keine |
+| Glücksspiel / simuliertes Glücksspiel / Lootboxen | Nein / Keine |
+| Wettbewerbe | Keine (die Rangliste gegen Chad ist Teil des Spiels) |
+
+## App-Datenschutz („Datenerfassung“)
+
+**Datenschutzrichtlinien-URL:** `https://DEIN-GITHUB-NAME.github.io/legdenkaese/datenschutz.html`
+
+„Erfasst du oder deine Drittanbieter Daten von dieser App?“ → **Ja**
+
+| Datentyp | Zweck | Mit Identität verknüpft? | Tracking? |
+|---|---|---|---|
+| **Nutzerinhalte → Andere Nutzerinhalte** (Chat-Nachrichten, Abschrift der Sprache, Meldungen) | App-Funktionalität | Nein | Nein |
+| **Nutzerinhalte → Fotos oder Videos** (Fotos, die man im Chat schickt) | App-Funktionalität | Nein | Nein |
+| **Kennungen → Geräte-ID** (zufällige ID für das Tageslimit) | App-Funktionalität | Nein | Nein |
+
+Alles andere: **nicht erfasst** (kein Standort, keine Kontakte, keine Nutzungsdaten, keine Diagnose, keine Käufe, kein Tracking).
+
+## Version (Produktseite)
+
+**Werbetext** (max. 170):
+```
+Swipe, flirte, telefoniere – und schnapp Chad Käsekönig die Krone weg! Die frechste Flirt-Comedy mit 66 KI-Figuren, die echt eigenen Charakter haben.
+```
+
+**Beschreibung:**
+```
+Leg den Käse ist die Comedy-Dating-App, in der nur der beste Käse gewinnt. 🧀💘
+
+Alle Personen in Leg den Käse sind KI-Figuren und nicht echt – aber jede hat ihren eigenen Charakter: Die Liebe, die Sportsüchtige, die Freche, die Schüchterne, die Wilde, die nur matcht, um dich auszulachen … und Chad Käsekönig, der selbsternannte König der App, der dir ständig unter die Nase reibt, dass er auf Platz 1 steht.
+
+SO GEHT'S
+• Bau dir deinen Avatar – 24 Frisuren, bunte Haarfarben und Farbverläufe, vom Business-Look bis zum Hawaiihemd
+• Swipe durch 66 Profile mit 40 Likes pro Tag: Rechts = Like, links = Nö, hoch = Käse-Like
+• Chatte frei mit deinen Matches – die KI-Figuren antworten wie echte Charaktere und reagieren auf deinen Stil
+• Schick Fotos und Sprachnachrichten
+• Ruf sie per Videoanruf an und sprich mit ihnen – wenn sie dich mögen, nehmen sie ab
+• Sammle Käse-Punkte, steig in der Rangliste auf und hol dir Chads Krone
+
+DAS ERWARTET DICH
+• Charme, Humor und Respekt gewinnen – billige Sprüche werden abgestraft
+• Manche Figuren flirten, manche beleidigen dich (im Spaß), manche blockieren dich einfach
+• Shop mit Outfits, Frisuren und Accessoires
+• Tägliche Belohnungen und Aufgaben
+
+GUT ZU WISSEN
+• Nur für Erwachsene (18+)
+• Chats und Anrufe brauchen Internet. Die Antworten erzeugt die KI „Claude“ von Anthropic.
+• Bis zu 100 KI-Nachrichten pro Tag – kostenlos, ohne Konto, ohne Werbung
+• Unpassende Antworten kannst du in jedem Chat und Anruf melden oder die Figur blockieren
+• Dein Spielstand bleibt auf deinem Handy
+```
+
+**Keywords** (max. 100 Zeichen, ohne Leerzeichen):
+```
+dating,flirt,simulation,komödie,ki,chat,swipe,avatar,rivale,käse,lustig,anruf,date,spiel,humor
+```
+
+**Support-URL:** `https://DEIN-GITHUB-NAME.github.io/legdenkaese/support.html`
+**Marketing-URL** (freiwillig): `https://DEIN-GITHUB-NAME.github.io/legdenkaese/`
+
+**Neuerungen in dieser Version:**
+```
+Die erste Version von Leg den Käse im App Store! 🧀
+```
+
+## App-Review-Informationen
+
+**Anmeldung erforderlich:** Nein
+**Hinweise für die Prüfung** (Englisch, damit das Review-Team es sicher versteht):
+```
+Leg den Käse is a comedy dating simulation game. All characters are fictional, adult AI characters (the app states this on first launch: "Alle Personen in Leg den Käse sind KI-Figuren und nicht echt."). There are no real users and no user-to-user communication.
+
+- No login required. Tap "Alles klar – los geht's!" on the first screen, create an avatar, then swipe right to match. Open "Chats" to talk to a match.
+- AI: Chat replies are generated by Anthropic's Claude via our own server (Cloudflare Worker). The API key is only on the server. Before anything is sent, the app asks for consent on first launch (data sent: chat text, photos sent in chat, speech transcript). Consent can be withdrawn in Settings (gear icon) → "KI-Chat erlauben".
+- Moderation: Every chat has a "⋮" menu and every video call a "🚩" button with "Melden" (Report) and "Blockieren" (Block). Reports are stored on our server and reviewed daily. Blocked characters can no longer message or call. Claude's built-in safety rules plus our character prompts prevent explicit content.
+- Microphone/Speech Recognition are only used during a video call or when recording a voice message. If denied, the call switches to typing.
+- Daily limit: 100 AI messages per device per day to control costs.
+- The app is intended for adults (18+).
+```
+**Kontakt:** dein Name, Telefonnummer, E-Mail
+
+## Screenshots
+
+Die Dateien `screenshot-1.png` bis `screenshot-5.png` (Ordner **2-App-Store-Bilder**) haben genau die Größe für **6,9-Zoll-iPhone (1320 × 2868)**. In App Store Connect bei „iPhone 6,9 Zoll“ hochladen – die kleineren Größen übernimmt Apple automatisch.
